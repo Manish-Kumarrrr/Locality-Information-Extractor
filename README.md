@@ -13,28 +13,23 @@ Before running the script, ensure you have the following installed:
 
 ## Setup
 
-1. **Clone the repository:**
+Method 1. **Clone the repository:**
 
     ```bash
+
     git clone https://github.com/Manish-Kumarrrr/Locality-Information-Extractor.git
     cd Locality-Information-Extractor
     ```
 
-2. **Download the repository as a ZIP file and extract it:**
+Method 2. **Download the repository as a ZIP file and extract it:**
 
     If you prefer, you can download the repository as a ZIP file and extract it to your local machine.
 
-3. **Install the required Python packages:**
+`
 
-    You can use `pip` to install the required packages. Run the following command in your terminal:
+After Method 1 or Method 2. **Download ChromeDriver:**
 
-    ```bash
-    pip install selenium openpyxl
-    ```
-
-4. **Download ChromeDriver:**
-
-    Download the ChromeDriver that matches your installed Chrome browser version from [ChromeDriver - WebDriver for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+    Download the ChromeDriver that matches your installed Chrome browser version from [ChromeDriver - WebDriver for Chrome](https://developer.chrome.com/docs/chromedriver/).
 
     Make sure to place the `chromedriver` executable in your project directory or add it to your system's PATH.
 
@@ -70,7 +65,7 @@ The script performs the following steps:
 
 ## Example Output
 
-The script will generate an Excel file `Output.xlsx` with a list of locality names extracted from the MagicBricks website.
+The script will generate an Excel file `localities.xlsx` with a list of locality names extracted from the MagicBricks website.
 
 ## Troubleshooting
 
@@ -81,8 +76,11 @@ The script will generate an Excel file `Output.xlsx` with a list of locality nam
 ## Purpose
 - Study Purpose Only
 
+
 ## Acknowledgements
 
 - [Selenium](https://www.selenium.dev/)
 - [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 
+## Author 
+- [Manish Kumar]
