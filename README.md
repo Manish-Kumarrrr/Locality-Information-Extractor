@@ -44,7 +44,9 @@ Before running the script, ensure you have the following installed:
     You can run the script using Python. Open a terminal in the project directory and execute:
 
     ```bash
-    python extract_localities.py
+    pip install papermill
+    papermill extract_localities.ipynb executed_notebook.ipynb
+
     ```
 
     The script will open the MagicBricks website, scroll down to load locality information, and save the data to an Excel file named `localities.xlsx`.
