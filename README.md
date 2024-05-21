@@ -21,7 +21,7 @@ Before running the script, ensure you have the following installed:
     ```
    or
    
-   ** Download the repository as a ZIP file and extract it:**
+   **Download the repository as a ZIP file and extract it:**
     If you prefer, you can download the repository as a ZIP file and extract it to your local machine.
     
 3. **Download ChromeDriver:**
