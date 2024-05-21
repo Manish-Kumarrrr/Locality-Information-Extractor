@@ -13,23 +13,19 @@ Before running the script, ensure you have the following installed:
 
 ## Setup
 
-Method 1. **Clone the repository:**
+1. **Clone the repository:**
 
     ```bash
-
-    git clone https://github.com/Manish-Kumarrrr/Locality-Information-Extractor.git
-    cd Locality-Information-Extractor
+    git clone https://github.com/your-username/locality-information-extractor.git
+    cd locality-information-extractor
     ```
-
-Method 2. **Download the repository as a ZIP file and extract it:**
-
+   or
+   **Download the repository as a ZIP file and extract it:**
     If you prefer, you can download the repository as a ZIP file and extract it to your local machine.
+    
+3. **Download ChromeDriver:**
 
-`
-
-After Method 1 or Method 2. **Download ChromeDriver:**
-
-    Download the ChromeDriver that matches your installed Chrome browser version from [ChromeDriver - WebDriver for Chrome](https://developer.chrome.com/docs/chromedriver/).
+    Download the ChromeDriver that matches your installed Chrome browser version from [ChromeDriver - WebDriver for Chrome](https://developer.chrome.com/docs/chromedriver/downloads).
 
     Make sure to place the `chromedriver` executable in your project directory or add it to your system's PATH.
 
@@ -51,7 +47,7 @@ After Method 1 or Method 2. **Download ChromeDriver:**
     python extract_localities.py
     ```
 
-    The script will open the MagicBricks website, scroll down to load locality information, and save the data to an Excel file named `Output.xlsx`.
+    The script will open the MagicBricks website, scroll down to load locality information, and save the data to an Excel file named `localities.xlsx`.
 
 ## Script Explanation
 
@@ -73,14 +69,9 @@ The script will generate an Excel file `localities.xlsx` with a list of locality
 - If you encounter issues with ChromeDriver, you may need to update your Chrome browser or ChromeDriver.
 - Make sure all required Python packages are installed.
 
-## Purpose
-- Study Purpose Only
-
 
 ## Acknowledgements
 
 - [Selenium](https://www.selenium.dev/)
 - [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 
-## Author 
-- [Manish Kumar]
