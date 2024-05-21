@@ -16,10 +16,11 @@ Before running the script, ensure you have the following installed:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/locality-information-extractor.git
-    cd locality-information-extractor
+    git clone https://github.com/Manish-Kumarrrr/Locality-Information-Extractor.git
+    cd Locality-Information-Extractor
     ```
    or
+   
    **Download the repository as a ZIP file and extract it:**
     If you prefer, you can download the repository as a ZIP file and extract it to your local machine.
     
